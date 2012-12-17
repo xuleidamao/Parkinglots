@@ -9,7 +9,6 @@ import java.util.Map;
  * To change this template use File | Settings | File Templates.
  */
 public class ParkPlace {
-
     private Map<Ticket, Car> parkedCarList = new HashMap<Ticket, Car>();
 
     public Integer getMaxParkingNum() {
